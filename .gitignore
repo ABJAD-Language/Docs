@@ -1,0 +1,42 @@
+# Dependencies
+/node_modules
+
+# Production
+/build
+
+# Generated files
+.docusaurus
+.cache-loader
+
+# Misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TODO to be deleted later
+/docs/tutorial-extras/img/localeDropdown.png
+/blog/2019-05-28-first-blog-post.md
+/blog/2019-05-29-long-blog-post.md
+/blog/2021-08-01-mdx-blog-post.mdx
+/docs/tutorial-basics/_category_.json
+/docs/tutorial-extras/_category_.json
+/blog/authors.yml
+/docs/tutorial-basics/congratulations.md
+/docs/tutorial-basics/create-a-blog-post.md
+/docs/tutorial-basics/create-a-document.md
+/docs/tutorial-basics/create-a-page.md
+/docs/tutorial-basics/deploy-your-site.md
+/docs/tutorial-extras/img/docsVersionDropdown.png
+/static/img/docusaurus.png
+/blog/2021-08-26-welcome/docusaurus-plushie-banner.jpeg
+/blog/2021-08-26-welcome/index.md
+/docs/tutorial-extras/manage-docs-versions.md
+/docs/tutorial-basics/markdown-features.mdx
+/src/pages/markdown-page.md
+/docs/tutorial-extras/translate-your-site.md
