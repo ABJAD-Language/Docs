@@ -4,16 +4,38 @@ export default function prismIncludeLanguages(PrismObject) {
     themeConfig: {prism},
   } = siteConfig;
   const {additionalLanguages} = prism;
-  // Prism components work on the Prism instance on the window, while prism-
-  // react-renderer uses its own Prism instance. We temporarily mount the
-  // instance onto window, import components to enhance it, then remove it to
-  // avoid polluting global namespace.
-  // You can mutate PrismObject: registering plugins, deleting languages... As
-  // long as you don't re-assign it
   globalThis.Prism = PrismObject;
+
+  globalThis.Prism.languages.abjad = getAbjadLanguage()
+  
   additionalLanguages.forEach((lang) => {
-    // eslint-disable-next-line global-require, import/no-dynamic-require
     require(`prismjs/components/prism-${lang}`);
   });
   delete globalThis.Prism;
+}
+
+function getAbjadLanguage() {
+  return Prism.languages.extend('clike', {
+    'function': /[_$a-z\xA0-\uFFFF][$\w\xA0-\uFFFF]*(?=\s*\()/,
+    'string': {
+      pattern: /(^|[^\\])"(?:\\.|[^\\"\r\n])*"(?!\s*:)/,
+      lookbehind: true,
+      greedy: true
+    },
+    'number': /-?\b\d+(?:\.\d+)?(?:e[+-]?\d+)?\b/i,
+    punctuation: /[{}[\]؛()،.]/,
+    'boolean': /(صحيح|خطأ|خطا)/,
+    'null': {
+      pattern: /عدم/,
+      alias: 'keyword'
+    },
+    'comment': [
+      {
+        lookbehind: true,
+        pattern: /(^|[^#:])#.*/
+      }
+    ],
+    keyword: /(متغير|ثابت|صنف|دالة|إذا|وإلا|أرجع|ارجع|إرجع|والا|عدم|لاشيء|طالما|كرر|كرّر|نوع|رقم|مقطع|منطق|اكتب|أكتب|انشئ|أنشئ|إنشئ|منشئ)/,
+    operator: /-[-=]?|\+[+=]?|!=?|<=?|>=?|=(?:==?|>)?|&|\||\*\*?=?|\/=?|~|\^=?|%=?|\?|\.{3}/,
+  });
 }

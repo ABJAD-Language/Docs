@@ -60,6 +60,11 @@ const config = {
             position: 'left'
           },
           {
+            href: 'https://mohammed.ezzedine.me/abjad/interpreter',
+            label: 'Online Interpreter', 
+            position: 'left'
+          },
+          {
             href: 'https://github.com/ABJAD-Language',
             label: 'GitHub',
             position: 'right',

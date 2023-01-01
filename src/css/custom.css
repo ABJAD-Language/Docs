@@ -20,3 +20,16 @@
   --ifm-color-primary-lightest: #7bccf8;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.language-abjad {
+  direction: rtl !important;
+}
+
+.language-abjad div div:has(button) {
+  display: flex;
+  column-gap: 0.2rem;
+  position: absolute;
+  left: .5rem;
+  right: unset;
+  top: 1rem
+}
