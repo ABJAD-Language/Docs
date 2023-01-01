@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-Learn more about what **ABJAD** is, how to create an **ABJAD** program, try the Online Interpreter, and more.
+Learn more about what **ABJAD** is, and the reason behind it.
 
 ## What Is **ABJAD**? {#what-is-abjad}
 
@@ -40,3 +40,9 @@ The main difference between interpreted and compiled languages is that interpret
 takes a code as a text and runs it immediately, without any further steps.
 On the other hand, compiled languages, require a compiler, that takes a code, analyzes it, and constructs a machine code
 that resembles its functionality. This machine code is what the computer needs to execute.
+
+## Why **ABJAD**? {#why-abjad}
+
+The name **ABJAD** is taken from an Arabic word (أبجدية) of Phoenician origin and it means the alphabets.
+The Phoenicians were the first people to discover the letters and use them to write, this is why, we gave our new programming language the honor of the name.
+
