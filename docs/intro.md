@@ -2,46 +2,41 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Learn more about what **ABJAD** is, how to create an **ABJAD** program, try the Online Interpreter, and more.
 
-## Getting Started
+## What Is **ABJAD**? {#what-is-abjad}
 
-Get started by **creating a new site**.
+### **ABJAD** is an Arabic Programming Language {#abjad-arabic-programming-language}
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+All of the main programming languages around the world are English-based languages, and using them requires prior
+knowledge of English. For non-English speakers, this can be a major barrier that stops them from pursuing a path in
+programming. That's why having an Arabic programming language can help accomplish the baby steps for newbies from the
+Arab region to learn how to code.
 
-### What you'll need
+The idea of having a local programming language when it comes to the Arab region isn't new, hence there are few Arabic
+programming languages out there. However, what makes **ABJAD** different, is that it is very similar, in syntax, to
+TypeScript, which makes it efficient for programmers who want to switch from Arabic programming language to an
+English-based language.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### **ABJAD** is a Scripting Language {#abjad-scripting-language}
 
-## Generate a new site
+Similar to other main languages, such as Python and JavaScript, **ABJAD** is a scripting language, which means that it
+requires minimal amount of code to start a program.
 
-Generate a new Docusaurus site using the **classic template**.
+The shortest **ABJAD** code, that prints "Hello World! (In Arabic)" is:
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+```abjad
+أكتب("مرحبا بالعالم!")؛
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+### **ABJAD** is an Interpreted Language {#abjad-interpreted-language}
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Opposite to compiled languages, such as C and C++, **ABJAD** is an interpreted language, which puts it in the same class as
+Python and JavaScript.
 
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+The main difference between interpreted and compiled languages is that interpreted languages require an interpreter that
+takes a code as a text and runs it immediately, without any further steps.
+On the other hand, compiled languages, require a compiler, that takes a code, analyzes it, and constructs a machine code
+that resembles its functionality. This machine code is what the computer needs to execute.

@@ -13,7 +13,13 @@ const config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
+    locales: ['en', 'ar'],
+    localeConfigs: {
+      ar: {
+        direction: 'rtl',
+        htmlLang: 'ar',
+      }
+    }
   },
 
   presets: [
@@ -42,7 +48,6 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'ABJAD Language',
         logo: {
           alt: 'ABJAD Logo',
           src: 'img/abjad.png',
@@ -69,6 +74,10 @@ const config = {
             label: 'GitHub',
             position: 'right',
           },
+          {
+            type: 'localeDropdown',
+            position: 'right'
+          }
         ],
       },
       footer: {

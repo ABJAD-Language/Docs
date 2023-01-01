@@ -1,0 +1,18 @@
+{
+  "item.label.Documentation": {
+    "message": "الشروحات",
+    "description": "Navbar item with label Documentation"
+  },
+  "item.label.Blog": {
+    "message": "المقالات",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Online Interpreter": {
+    "message": "مُشغّل برمجي",
+    "description": "Navbar item with label Online Interpreter"
+  },
+  "item.label.GitHub": {
+    "message": "GitHub",
+    "description": "Navbar item with label GitHub"
+  }
+}

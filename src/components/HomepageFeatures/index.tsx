@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/main_curly_braces.svg').default,
     description: (
       <>
-        <b>ABJAD</b> can be considered from the C-Languages family with a high resemblence to TypeScript.
+        ABJAD can be considered from the C-Languages family with a high resemblence to TypeScript.
       </>
     ),
   },

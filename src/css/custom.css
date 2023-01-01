@@ -1,23 +1,23 @@
 :root {
   --ifm-color-primary: #2792C1;
-  --ifm-color-primary-dark: #2385af;
-  --ifm-color-primary-darker: #196683;
-  --ifm-color-primary-darkest: #114b5e;
-  --ifm-color-primary-light: #2c9fd5;
-  --ifm-color-primary-lighter: #30afe8;
-  --ifm-color-primary-lightest: #3abdfa;
+  --ifm-color-primary-dark: #2383ae;
+  --ifm-color-primary-darker: #217ca4;
+  --ifm-color-primary-darkest: #1b6687;
+  --ifm-color-primary-light: #2ba1d4;
+  --ifm-color-primary-lighter: #35a5d6;
+  --ifm-color-primary-lightest: #52b2dc;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 [data-theme='dark'] {
   --ifm-color-primary: #54acd2;
-  --ifm-color-primary-dark: #4b98b9;
-  --ifm-color-primary-darker: #336980;
-  --ifm-color-primary-darkest: #285264;
-  --ifm-color-primary-light: #61bae7;
-  --ifm-color-primary-lighter: #6cc5f5;
-  --ifm-color-primary-lightest: #7bccf8;
+  --ifm-color-primary-dark: #3da1cc;
+  --ifm-color-primary-darker: #349ac6;
+  --ifm-color-primary-darkest: #2b7fa3;
+  --ifm-color-primary-light: #6bb7d8;
+  --ifm-color-primary-lighter: #77bddb;
+  --ifm-color-primary-lightest: #9acee4;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -25,11 +25,23 @@
   direction: rtl !important;
 }
 
-.language-abjad div div:has(button) {
+.language-abjad:lang(ar) {
+  direction: ltr !important; /* the internationalization plugin will reverse this to rtl when the language is arabic */
+}
+
+.language-abjad div div:has(button):lang(en) {
   display: flex;
   column-gap: 0.2rem;
   position: absolute;
   left: .5rem;
   right: unset;
-  top: 1rem
+  top: 1rem;
+}
+
+h2, h3 {
+  font-weight: 500;
+}
+
+strong {
+  font-family: Fira Sans,sans-serif;
 }
