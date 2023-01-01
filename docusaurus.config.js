@@ -6,7 +6,7 @@ const config = {
   title: 'ABJAD Docs',
   tagline: 'Arabic Programming Language',
   url: 'https://mohammed.ezzedine.me/',
-  baseUrl: '/', // TODO change to the base url before hosting
+  baseUrl: '/abjad-new/', // TODO change to the base url before hosting
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
