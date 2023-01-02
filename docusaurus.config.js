@@ -32,11 +32,11 @@ const config = {
           editUrl:
             'https://github.com/ABJAD-Language/Docs/tree/main/',
         },
-        blog: {
-          showReadingTime: true,
-          editUrl:
-            'https://github.com/ABJAD-Language/Docs/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   editUrl:
+        //     'https://github.com/ABJAD-Language/Docs/tree/main/packages/create-docusaurus/templates/shared/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -59,11 +59,11 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          {
-            to: '/blog', 
-            label: 'Blog', 
-            position: 'left'
-          },
+          // {
+          //   to: '/blog', 
+          //   label: 'Blog', 
+          //   position: 'left'
+          // },
           {
             href: 'https://mohammed.ezzedine.me/abjad/interpreter',
             label: 'Online Interpreter', 
@@ -104,10 +104,10 @@ const config = {
           {
             title: 'More',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/ABJAD-Language',
