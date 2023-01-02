@@ -38,6 +38,10 @@
   top: 1rem;
 }
 
+.language-abjad pre {
+  font-family: Fira code,Fira Mono,Consolas,Menlo,Courier,monospace !important;
+}
+
 h2, h3 {
   font-weight: 500;
 }
