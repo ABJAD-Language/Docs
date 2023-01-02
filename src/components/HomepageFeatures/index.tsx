@@ -32,7 +32,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/main_semicolon.svg').default,
     description: (
       <>
-          Similar to Arabic, ABJAD is written from right to left. And Don't forget your semicolon ؛)
+          Similar to Arabic, ABJAD is written from right to left. And don't forget your semicolon ؛)
       </>
     ),
   },
