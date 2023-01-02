@@ -13,7 +13,6 @@ can change with time.
 
 ## Declaring a Variable {#declaring-a-variable}
 
-[//]: # (TODO reference the page where we talk about types)
 Declaration is creating a new variable, giving it a name, a type, and a value.
 
 The syntax for declaring a new variable is as the following:
@@ -22,7 +21,7 @@ The syntax for declaring a new variable is as the following:
 2. The type of the variable
 
    :::note Variable Type
-   It can either be a primitive type, such as (number: رقم, string: مقطع, bool: منطق) or a custom defined one
+   It can either be a primitive type, such as (number: رقم, string: مقطع, boolean: منطق) or a custom defined one ([learn more](types.md))
    :::
 3. The name of the variable
 4. The assignment symbol `=`

@@ -19,7 +19,7 @@ The syntax for declaring a new constant is as the following:
 2. The type of the constant
 
    :::note Constant Type
-   Unlike variables, constants can only be of type number `رقم`, string `مقطع`, or bool `منطق`
+   Unlike variables, constants can only be of type number `رقم`, string `مقطع`, or boolean `منطق`
    :::
 3. The name of the constant
 4. The assignment symbol `=`
