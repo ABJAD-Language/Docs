@@ -10,5 +10,13 @@
   "sidebar.tutorialSidebar.category.Syntax.link.generated-index.description": {
     "message": "تعلم أكثر عن الصياغة في أبجد.",
     "description": "The generated-index page description for category Syntax in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Loops": {
+    "message": "الحلقات",
+    "description": "The label for category Syntax in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Loops.link.generated-index.description": {
+    "message": "الحلقات هي مفهوم برمجي لتكرار فعلٍ معين بطريقة معينة. تخيل مثلا لو أنك تريد كتابة جميع الأرقام من 1 إلى 100. فِعلُ هذا يدويًّا ليس بطريقة ذكية.",
+    "description": "The generated-index page description for category Syntax in sidebar tutorialSidebar"
   }
 }

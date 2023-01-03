@@ -1,0 +1,8 @@
+﻿{
+  "label": "Loops",
+  "position": 9,
+  "link": {
+    "type": "generated-index",
+    "description": "Loops are a programming concept for repeating a process under some mechanism. Imagine you want to write the numbers from 1 to 100. Doing it manually would be insane!"
+  }
+}
