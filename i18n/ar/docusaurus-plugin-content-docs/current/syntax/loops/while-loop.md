@@ -13,7 +13,6 @@ sidebar_position: 1
 
 ## الصياغة {#syntax}
 
-The syntax of a while loop is very basic and it goes as the following:
 صياغة حلقة طالما سهلة للغايى وتكون كالتالي:
 
 1. الكلمة المفتاح `طالما`

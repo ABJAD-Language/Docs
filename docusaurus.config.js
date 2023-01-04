@@ -102,7 +102,7 @@ const config = {
             items: [
               {
                 label: 'Online Interpreter',
-                href: 'https://mohammed.ezzedine/abjad/interpreter',
+                href: 'https://mohammed.ezzedine.me/abjad/interpreter',
               }
             ],
           },
