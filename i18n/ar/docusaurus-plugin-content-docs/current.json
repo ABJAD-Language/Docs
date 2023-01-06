@@ -18,5 +18,21 @@
   "sidebar.tutorialSidebar.category.Loops.link.generated-index.description": {
     "message": "الحلقات هي مفهوم برمجي لتكرار فعلٍ معين بطريقة معينة. تخيل مثلا لو أنك تريد كتابة جميع الأرقام من 1 إلى 100. فِعلُ هذا يدويًّا ليس بطريقة ذكية.",
     "description": "The generated-index page description for category Syntax in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced": {
+    "message": "مواضيع متقدمة",
+    "description": "The label for category Syntax in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced.link.generated-index.description": {
+    "message": "تعلّم\\ي عن المواضيع المتقدمة في البرمجة عن طريق أبجد.",
+    "description": "The generated-index page description for category Syntax in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Sample Codes": {
+    "message": "كودات عينية",
+    "description": "The label for category Syntax in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Sample Codes.link.generated-index.description": {
+    "message": "قم\\قومي بتجريب هذه الكودات في المشغّل البرمجي",
+    "description": "The generated-index page description for category Syntax in sidebar tutorialSidebar"
   }
 }
