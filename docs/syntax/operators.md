@@ -84,4 +84,8 @@ one parameter, and others are binary operations, i.e. require two parameters.
 |    ==     |     Equal     |          Returns true if the strings are equal, false otherwise           |   Boolean   |                             <pre> الأول == الثاني</pre> |
 |    !=     |   Not Equal   |          Returns false if the strings are equal, true otherwise           |   Boolean   |                             <pre> الأول == الثاني</pre> |
 
-
+### Binary Assignment Operations {#string-binary-assignment-operations}
+| Operation |    Name     |                                          Function                                           | Return Type |                     Example |
+|:---------:|:-----------:|:-------------------------------------------------------------------------------------------:|:-----------:|----------------------------:|
+|    +=     | Concatenate |        Concatenates a number or a string to the original one and returns the result         |   String    | <pre>"رسالة += "مرحبا</pre> |
+|    *=     |   Repeat    | Repeats the target string N times, updating it with the new value, and returning the result |   String    |       <pre>رسالة *= 2</pre> |
