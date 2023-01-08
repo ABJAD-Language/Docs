@@ -34,7 +34,7 @@ You can get the type of the value using the `نوع` keyword followed by parenth
 
 e.g. This code will print `رقم`
 
-```abjad
+```abjad showLineNumbers
 ثابت رقم باي = 3.14؛
 أكتب(نوع(باي))؛
 ```
@@ -47,7 +47,7 @@ Conversion is possible from Number data type to String data type by calling on t
 
 e.g. `عشرة` will have the value of `"10"`.
 
-```abjad
+```abjad showLineNumbers
 متغير مقطع عشرة = مقطع(10)؛
 ```
 
@@ -55,14 +55,14 @@ e.g. `عشرة` will have the value of `"10"`.
 Converting a String data type to Number data type happens by calling on the function `رقم` and passing it a string representation of a number.
 e.g. خمسة will have the value of 5.
 
-```abjad
+```abjad showLineNumbers
 متغير رقم خمسة = رقم("5")؛
 ```
 
 :::warning
 The following example will throw an error since the value is not qualified to be a number
 
-```abjad
+```abjad showLineNumbers
 متغير رقم عدد_غير_صالح = رقم("5.3.6")؛
 ```
 :::
@@ -71,7 +71,7 @@ The following example will throw an error since the value is not qualified to be
 Converting a Boolean to String happens by calling on the function `مقطع` and passing it a boolean
 e.g. `جواب` will have the value of `"صحيح"`.
 
-```abjad
+```abjad showLineNumbers
 متغير مقطع جواب = مقطع(صحيح)؛
 ```
 
@@ -80,14 +80,14 @@ Converting a String to Boolean happens by calling on the function `منطق` and
 
 e.g. جواب will have the value of خطأ.
 
-```abjad
+```abjad showLineNumbers
 متغير منطق جواب = منطق("خطأ")؛
 ```
 
 :::warning
 The following example will throw an error since the value is not qualified to be a boolean
 
-```abjad
+```abjad showLineNumbers
 متغير منطق جواب_غير_صالح = منطق("صح")؛
 ```
 :::

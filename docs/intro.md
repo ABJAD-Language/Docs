@@ -27,7 +27,7 @@ requires minimal amount of code to start a program.
 
 The shortest **ABJAD** code, that prints "Hello World! (In Arabic)" is:
 
-```abjad
+```abjad showLineNumbers
 أكتب("مرحبا بالعالم!")؛
 ```
 

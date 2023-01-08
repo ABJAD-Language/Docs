@@ -17,7 +17,7 @@ sidebar_position: 5
 
 أمثلة:
 
-```abjad
+```abjad showLineNumbers
 أكتب(صحيح)؛
 أكتب(3)؛
 متغير مقطع ترحيب = "مرحبا"؛

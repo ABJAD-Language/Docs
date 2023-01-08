@@ -36,7 +36,7 @@ sidebar_position: 4
 
 مثال: الكود التالي يكتب الجواب: `رقم`
 
-```abjad
+```abjad showLineNumbers
 ثابت رقم باي = 3.14؛
 أكتب(نوع(باي))؛
 ```
@@ -49,7 +49,7 @@ sidebar_position: 4
 
 مثال: قيمة `عشرة` تساوي `"10"`.
 
-```abjad
+```abjad showLineNumbers
 متغير مقطع عشرة = مقطع(10)؛
 ```
 
@@ -58,14 +58,14 @@ sidebar_position: 4
 
 مثال: قيمة خمسة تساوي 5.
 
-```abjad
+```abjad showLineNumbers
 متغير رقم خمسة = رقم("5")؛
 ```
 
 :::warning
 المثال التالي خاطئ لأن القيمة لا يمكن تحويلها إلى مقطع
 
-```abjad
+```abjad showLineNumbers
 متغير رقم عدد_غير_صالح = رقم("5.3.6")؛
 ```
 :::
@@ -75,7 +75,7 @@ sidebar_position: 4
 
 مثال: قيمة `جواب` تساوي `"صحيح"`.
 
-```abjad
+```abjad showLineNumbers
 متغير مقطع جواب = مقطع(صحيح)؛
 ```
 
@@ -84,14 +84,14 @@ sidebar_position: 4
 
 مثال: قيمة جواب تساوي خطأ.
 
-```abjad
+```abjad showLineNumbers
 متغير منطق جواب = منطق("خطأ")؛
 ```
 
 :::warning
 المثال التالي خاطئ لأن القيمة لا يمكن تحويلها إلى منطق
 
-```abjad
+```abjad showLineNumbers
 متغير منطق جواب_غير_صالح = منطق("صح")؛
 ```
 :::

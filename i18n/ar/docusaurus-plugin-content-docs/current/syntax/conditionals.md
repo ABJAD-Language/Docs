@@ -36,7 +36,7 @@ graph RL
 ## الصياعة {#syntax}
 ### بدون حكم-وإلا {#syntax-without-else-clause}
 
-```abjad
+```abjad showLineNumbers
 متغير منطق عشرة_إيجاب = 10 > 0؛
 إذا(عشرة_إيجاب) {
    أكتب("الرقم عشرة إيجابي")؛
@@ -45,7 +45,7 @@ graph RL
 
 ### مع حكم-وإلا {#syntax-with-else-clause}
 
-```abjad
+```abjad showLineNumbers
 متغير منطق مزدوج = 7 % 2 == 0؛
 إذا(مزدوج) {
    أكتب("الرقم مزدوج")؛
@@ -56,7 +56,7 @@ graph RL
 
 ### تداخل الجمل الشرطية {#syntax-nesting-if-else-statements}
 
-```abjad
+```abjad showLineNumbers
 متغير رقم اول = 10؛
 متغير رقم ثاني = 20؛
 
@@ -67,5 +67,4 @@ graph RL
 } وإلا {
   أكتب("الرقمان متساويان")؛
 }
-
 ```

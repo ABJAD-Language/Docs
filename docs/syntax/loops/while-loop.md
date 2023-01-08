@@ -28,15 +28,13 @@ The syntax of a while loop is very basic and it goes as the following:
 
 The following example prints the smallest number that can be divided by 4 and by 6:
 
-```abjad
-
+```abjad showLineNumbers
 متغير رقم عدد = 1؛
 طالما(!(عدد % 6 == 0 && عدد % 4 == 0)) {
   عدد++؛
 }
 
 اكتب("العدد " + عدد + " ينقسم على 6 وعلى 4.")؛
-
 ```
 
 :::warning

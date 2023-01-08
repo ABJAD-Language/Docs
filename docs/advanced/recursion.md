@@ -26,7 +26,7 @@ without the base step, the function will keep on calling endlessly and causing t
 
 The following example calculates the exponential of a number using recursion:
 
-```abjad
+```abjad showLineNumbers
 دالة احسب_الأس(رقم عدد، رقم أس) : رقم {
 	اذا (أس == 0) {
 		ارجع 1؛

@@ -14,7 +14,7 @@ The syntax of comments in **ABAJD** is very simple. A line that begins with a ha
 
 Example:
 
-```abjad
+```abjad showLineNumbers
 # هذا تعليق لا يؤثر في الكود
 أكتب("مرحبا بالعالم")؛
 ```

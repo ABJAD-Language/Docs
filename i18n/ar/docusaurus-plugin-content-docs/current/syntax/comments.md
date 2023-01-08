@@ -15,7 +15,7 @@ sidebar_position: 6
 
 مثال:
 
-```abjad
+```abjad showLineNumbers
 # هذا تعليق لا يؤثر في الكود
 أكتب("مرحبا بالعالم")؛
 ```

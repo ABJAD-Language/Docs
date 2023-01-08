@@ -34,7 +34,7 @@ The syntax for declaring a new variable is as the following:
 
 An example of declaring a number variable of name س and value 1:
 
-```abjad
+```abjad showLineNumbers
 متغير رقم س = 1؛
 ```
 
@@ -43,7 +43,7 @@ An example of declaring a number variable of name س and value 1:
 Declaring a new variable does not require specifying its value, that's why when there is no value yet to give, you can
 simply just specify the name and the type of the variable, e.g.:
 
-```abjad
+```abjad showLineNumbers
 متغير رقم س؛
 ```
 
@@ -55,14 +55,14 @@ i.e.
 
 The following example is <ins>erroneous</ins>:
 
-```abjad
+```abjad showLineNumbers
 متغير رقم س؛
 متغير رقم ش = س؛
 ```
 
 While the following is fine:
 
-```abjad
+```abjad showLineNumbers
 متغير رقم س؛
 س = 1؛
 متغير رقم ش = س؛
@@ -76,7 +76,7 @@ Once a variable was declared with a value, it can be used in the code like any o
 
 An example of printing the value of a variable:
 
-```abjad
+```abjad showLineNumbers
 متغير مقطع رسالة = "مرحبا بالعالم"؛
 أكتب(رسالة)؛
 ```
@@ -86,7 +86,7 @@ An example of printing the value of a variable:
 Changing the value of a variable, or assigning it a new one, is very similar, in syntax, to declaring one, just without
 the `متغير` keyword and the type, that are limited to declaration only.
 
-```abjad
+```abjad showLineNumbers
 متغير مقطع كلمة = "مرحبا"؛
 كلمة = "أهلا"؛
 ```

@@ -16,7 +16,7 @@ The concept of calling a function will be discussed later on, but in case of pri
 
 examples:
 
-```abjad
+```abjad showLineNumbers
 أكتب(صحيح)؛
 أكتب(3)؛
 متغير مقطع ترحيب = "مرحبا"؛

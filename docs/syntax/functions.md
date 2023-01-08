@@ -36,7 +36,7 @@ The syntax of defining a function goes as the following:
 
 The following example defines a function that takes two numbers as parameters, and then returns their sum.
 
-```abjad
+```abjad showLineNumbers
 دالة جامعة (رقم أ، رقم ب): رقم {
    أرجع أ + ب؛
 }
@@ -60,7 +60,7 @@ And the syntax for that goes as the following:
 
 Let's print the sum of every two consecutive numbers from 0 to 9 using the function we declared above.
 
-```abjad
+```abjad showLineNumbers
 كرر (متغير رقم س = 0؛ س < 10؛ س++) {
    أكتب(جامعة(س، س + 1))؛
 }

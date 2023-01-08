@@ -32,7 +32,7 @@ The syntax for declaring a new constant is as the following:
 
 An example of declaring a number constant of name باي and value 3.14:
 
-```abjad
+```abjad showLineNumbers
 ثابت رقم باي = 3.14؛
 ```
 
@@ -41,7 +41,7 @@ Using a constant doesn't differ than using a variable at all.
 
 An example of printing the value of a constant:
 
-```abjad
+```abjad showLineNumbers
 ثابت رقم باي = 3.14؛
 أكتب(باي)؛
 ```

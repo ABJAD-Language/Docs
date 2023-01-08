@@ -35,7 +35,7 @@ graph LR
 ## Syntax {#syntax}
 ### Without Else-Clause {#syntax-without-else-clause}
 
-```abjad
+```abjad showLineNumbers
 متغير منطق عشرة_إيجاب = 10 > 0؛
 إذا(عشرة_إيجاب) {
    أكتب("الرقم عشرة إيجابي")؛
@@ -44,7 +44,7 @@ graph LR
 
 ### With Else-Clause {#syntax-with-else-clause}
 
-```abjad
+```abjad showLineNumbers
 متغير منطق مزدوج = 7 % 2 == 0؛
 إذا(مزدوج) {
    أكتب("الرقم مزدوج")؛
@@ -55,7 +55,7 @@ graph LR
 
 ### Nesting If-Else Statements {#syntax-nesting-if-else-statements}
 
-```abjad
+```abjad showLineNumbers
 متغير رقم اول = 10؛
 متغير رقم ثاني = 20؛
 
@@ -66,5 +66,4 @@ graph LR
 } وإلا {
   أكتب("الرقمان متساويان")؛
 }
-
 ```

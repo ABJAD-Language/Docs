@@ -35,7 +35,7 @@ The following example prints the numbers from 0 to 9:
 * We configured our loop to increment `س` by 1 after each iteration
 * In the body, we are printing the value of `س`
 
-```abjad
+```abjad showLineNumbers
 كرر (متغير رقم س = 0؛ س < 10؛ س++) {
    أكتب(س)؛
 }
@@ -44,7 +44,7 @@ The following example prints the numbers from 0 to 9:
 ### Example 2: {#example-2}
 
 
-```abjad
+```abjad showLineNumbers
 متغير رقم س؛
 كرر (س = 0؛ س <= 10؛ س += 2) {
    أكتب(س)؛

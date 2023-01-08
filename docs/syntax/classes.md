@@ -28,7 +28,7 @@ The following example defined a class of name `إنسان` which has:
 - two variables: a string `اسم` and a number `عمر`
 - a setter method to update the value of each variable
 
-```abjad
+```abjad showLineNumbers
 صنف إنسان {
 
   متغير مقطع اسم؛
@@ -43,12 +43,11 @@ The following example defined a class of name `إنسان` which has:
   }
 
 }
-
 ```
 
 To define a variable of type `انسان`, you can do the following:
 
-```abjad
+```abjad showLineNumbers
 متغير انسان محمد = انشئ انسان()؛
 محمد.تعديل_الاسم("محمد")؛
 محمد.تعديل_العمر(22)؛
@@ -82,7 +81,7 @@ The syntax of defining a constructor is:
 
 An example of a constructor added to the class defined above:
 
-```abjad
+```abjad showLineNumbers
 صنف إنسان {
 
   متغير مقطع اسم؛
@@ -94,7 +93,6 @@ An example of a constructor added to the class defined above:
   }
 
 }
-
 ```
 
 As you can see, with constructors we can define the values of the variables directly when instantiating a variable of
@@ -102,7 +100,7 @@ the class, with no need to use setters for that.
 
 Now to define a variable of type `انسان`, you can do this:
 
-```abjad
+```abjad showLineNumbers
 متغير انسان محمد = انشئ انسان("محمد"، 22)؛
 أكتب("الاسم: " + محمد.اسم + "، العمر: " + محمد.عمر)؛
 ```
@@ -113,7 +111,7 @@ You can declare more than one constructors for the same class as long as they do
 
 #### Example {#multiple-constructors-example}
 
-```abjad
+```abjad showLineNumbers
 صنف إنسان {
 
   متغير مقطع اسم؛
@@ -136,7 +134,6 @@ You can declare more than one constructors for the same class as long as they do
 
 متغير انسان أحمد = انشئ انسان(31)؛
 أكتب("الاسم: " + أحمد.اسم + "، العمر: " + أحمد.عمر)؛
-
 ```
 
 ### Instantiating a Class {#instantiating-a-class}

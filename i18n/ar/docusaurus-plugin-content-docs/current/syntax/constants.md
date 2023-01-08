@@ -31,7 +31,7 @@ sidebar_position: 3
 
 مثال على تعريف الرقم الثابت باي يحمل القيمة 3.14:
 
-```abjad
+```abjad showLineNumbers
 ثابت رقم باي = 3.14؛
 ```
 
@@ -40,7 +40,7 @@ sidebar_position: 3
 
 مثال على كتابة قيمة ثابت:
 
-```abjad
+```abjad showLineNumbers
 ثابت رقم باي = 3.14؛
 أكتب(باي)؛
 ```
