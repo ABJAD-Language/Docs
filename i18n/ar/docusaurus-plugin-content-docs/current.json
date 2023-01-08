@@ -27,11 +27,11 @@
     "message": "تعلّم\\ي عن المواضيع المتقدمة في البرمجة عن طريق أبجد.",
     "description": "The generated-index page description for category Syntax in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Sample Codes": {
+  "sidebar.tutorialSidebar.category.Code Samples": {
     "message": "كودات عينية",
     "description": "The label for category Syntax in sidebar tutorialSidebar"
   },
-  "sidebar.tutorialSidebar.category.Sample Codes.link.generated-index.description": {
+  "sidebar.tutorialSidebar.category.Code Samples.link.generated-index.description": {
     "message": "قم\\قومي بتجريب هذه الكودات في المشغّل البرمجي",
     "description": "The generated-index page description for category Syntax in sidebar tutorialSidebar"
   }

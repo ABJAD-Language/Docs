@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import styles from './styles.module.css';
+import Translate, {translate} from "@docusaurus/Translate";
 
 type FeatureItem = {
   title: string;
@@ -10,29 +11,38 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'C-Like Language',
+    title: translate({
+        message: 'C-Like Language',
+        description: "Homepage Component: C-Like Language"
+    }),
     Svg: require('@site/static/img/main_curly_braces.svg').default,
     description: (
       <>
-        ABJAD can be considered from the C-Languages family with a high resemblence to TypeScript.
+          <Translate>ABJAD can be considered from the C-Languages family with a high resemblance to TypeScript.</Translate>
       </>
     ),
   },
   {
-    title: 'Arabic Programming Language',
+    title: translate({
+        message: 'Arabic Programming Language',
+        description: "Homepage Component: Arabic Programming Language"
+    }),
     Svg: require('@site/static/img/main_arabic_letter.svg').default,
     description: (
       <>
-        With ABJAD you can now write simple scripts in Arabic.
+          <Translate>With ABJAD you can now write simple scripts in Arabic.</Translate>
       </>
     ),
   },
   {
-    title: 'RTL',
+    title: translate({
+        message: 'RTL',
+        description: "Homepage Component: RTL"
+    }),
     Svg: require('@site/static/img/main_semicolon.svg').default,
     description: (
       <>
-          Similar to Arabic, ABJAD is written from right to left. And don't forget your semicolon ؛)
+          <Translate>Similar to Arabic, ABJAD is written from right to left. And don't forget your semicolon ؛)</Translate>
       </>
     ),
   },

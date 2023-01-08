@@ -1,0 +1,38 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Syntax": {
+    "message": "Syntax",
+    "description": "The label for category Syntax in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Syntax.link.generated-index.description": {
+    "message": "Learn more about the syntax of ABJAD.",
+    "description": "The generated-index page description for category Syntax in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Loops": {
+    "message": "Loops",
+    "description": "The label for category Loops in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Loops.link.generated-index.description": {
+    "message": "Loops are a programming concept for repeating a process under some mechanism. Imagine you want to write the numbers from 1 to 100. Doing it manually would be insane!",
+    "description": "The generated-index page description for category Loops in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced": {
+    "message": "Advanced",
+    "description": "The label for category Advanced in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Advanced.link.generated-index.description": {
+    "message": "Learn more about the advanced topics in ABJAD.",
+    "description": "The generated-index page description for category Advanced in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Code Samples": {
+    "message": "Code Samples",
+    "description": "The label for category Code Samples in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Code Samples.link.generated-index.description": {
+    "message": "Try these sample codes in the ABJAD online editor.",
+    "description": "The generated-index page description for category Code Samples in sidebar tutorialSidebar"
+  }
+}
